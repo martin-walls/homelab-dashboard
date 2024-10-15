@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+body {
+  /* make sure there is still padding around the window when the viewport is narrow */
+  padding-inline: 1rem;
+}
+
 .window {
   width: fit-content;
   margin-inline: auto;
