@@ -1,37 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Homelab</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Homelab</title>
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
   </head>
   <body>
-    <h1>Homelab</h1>
+    <main class="window">
+      <div class="title-bar">
+        <h1 class="title">Homelab</h1>
+      </div>
 
-    <div>
-      <a href="http://pihole.lan/admin">Pihole</a>
-    </div>
-    <div>
-      <a href="https://home.lan:9443">Portainer</a>
-    </div>
-    <div>
-      <a href="http://home.lan:51860">Wireguard</a>
-    </div>
-    <div>
-      <a href="http://home.lan:8090">UpSnap</a>
-    </div>
-    <div>
-      <a href="http://home.lan:8001">DDNS Updater</a>
-    </div>
+      <div class="window-pane">
+        <h2>Admin</h2>
 
-    <h2>Media</h2>
+        <div class="links">
+          <a href="https://home.lan:9443" class="btn">Portainer</a>
+          <a href="http://pihole.lan/admin" class="btn">Pihole</a>
+          <a href="http://home.lan:51860" class="btn">Wireguard</a>
+          <a href="http://home.lan:8090" class="btn">UpSnap</a>
+          <a href="http://home.lan:8001" class="btn">DDNS Updater</a>
+        </div>
 
-    <div>
-      <a href="http://mediaserver.lan:8096">Jellyfin</a>
-    </div>
-    <div>
-      <a href="http://mediaserver.lan:7000">Audiobookshelf</a>
-    </div>
+        <h2>Media</h2>
+
+        <div class="links">
+          <a href="http://mediaserver.lan:8096" class="btn">Jellyfin</a>
+          <a href="http://mediaserver.lan:7000" class="btn">Audiobookshelf</a>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
