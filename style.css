@@ -1,3 +1,13 @@
+html,
+body {
+  margin: 0;
+}
+
+.window {
+  width: fit-content;
+  margin-inline: auto;
+}
+
 .links {
   display: flex;
   flex-direction: row;
